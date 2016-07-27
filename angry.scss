@@ -13,4 +13,5 @@ $color-anger: red;
 *::after {
   content: "\2620";
   margin: 0 1em;
+  display: inline-block;
 }
