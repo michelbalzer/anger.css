@@ -1,0 +1,10 @@
+$color-anger: red;
+
+*,
+*::before,
+*::after {
+  color: $color-anger !important;
+  background: $color-anger !important;
+  border: 5em solid $color-anger !important;
+  outline: 5em solid lighten($color-anger, 10%);
+}
