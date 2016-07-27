@@ -11,5 +11,6 @@ $color-anger: red;
 
 *::before,
 *::after {
-  content: "\u2620";
+  content: "\2620";
+  margin: 0 1em;
 }
