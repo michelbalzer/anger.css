@@ -1,0 +1,24 @@
+body * {
+  font-size: 3vw !important;
+  color: #fff !important;
+  background: red !important;
+  border: 1em solid red !important;
+  outline: 1em solid #f33;
+}
+
+body *::before,
+body *::after {
+  content: "☠";
+  display: inline-block;
+  position: relative;
+  top: 0.15em;
+}
+
+body *::before {
+  margin-right: 0.2em;
+}
+
+body *::after {
+  margin-left: 0.2em;
+}
+
