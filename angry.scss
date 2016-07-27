@@ -3,8 +3,13 @@ $color-anger: red;
 *,
 *::before,
 *::after {
-  color: $color-anger !important;
+  color: #fff !important;
   background: $color-anger !important;
   border: 5em solid $color-anger !important;
   outline: 5em solid lighten($color-anger, 10%);
+}
+
+*::before,
+*::after {
+  content: "\u2620";
 }
