@@ -1,17 +1,25 @@
 $color-anger: red;
 
-*,
-*::before,
-*::after {
+body * {
+  font-size: 3vw !important;
   color: #fff !important;
   background: $color-anger !important;
-  border: 5em solid $color-anger !important;
-  outline: 5em solid lighten($color-anger, 10%);
+  border: 1em solid $color-anger !important;
+  outline: 1em solid lighten($color-anger, 10%);
 }
 
-*::before,
-*::after {
+body *::before,
+body *::after {
   content: "\2620";
-  margin: 0 1em;
   display: inline-block;
+  position: relative;
+  top: .15em;
+}
+
+body *::before {
+  margin-right: .2em;
+}
+
+body *::after {
+  margin-left: .2em;
 }
